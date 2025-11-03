@@ -18,15 +18,15 @@ t = dt:dt:N*dt;
 
 
 %noise level
-Noise = 0.5;
+Noise = 0.1;
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% Quadratic trend
 %sinusoidal spatial wavelengths
-L1x = 200;
-L1y = 300;
-L2x = 100;
-L2y = 100;
+L1x = 200*10;
+L1y = 300*10;
+L2x = 100*10;
+L2y = 100*10;
 
 
 %make spatial pattern
