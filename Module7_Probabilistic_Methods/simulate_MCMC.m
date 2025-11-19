@@ -66,6 +66,7 @@ for loop=1:NumSamples
     
     %plot sample
     plot(X(1),X(2),'k.');
+    pause(0.1)
     drawnow
 
 end %loop
